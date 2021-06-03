@@ -1,0 +1,33 @@
+
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "username": "hvdd",
+  "name": "Adam Richard",
+  "password": "harsha_567",
+  "gender": "male",
+  "location": "Detroit"
+}
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "username": "hv",
+  "password": "harsha_527"
+}
+
+
+###
+
+PUT http://localhost:3000/change-password
+Content-Type: application/json
+
+{
+  "username": "hv",
+  "oldPassword":"harsha_567",
+  "newPassword": "harsha_527"
+}
+
